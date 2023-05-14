@@ -112,7 +112,7 @@ void GameRules(int menu) {
     srand(time(0));
     z = rand() % 10 + 1;
 
-    if(x = y) {
+    if(x == y) {
         system("cls||clear");
         cout << "Hehehehe you two picked the same number!\n" <<
         "I don't want to play with you anymore\n\n";
